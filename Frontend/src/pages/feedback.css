@@ -1,0 +1,61 @@
+/* feedback.css */
+
+/* Styling for the main container */
+.down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     margin: -50px 0px 0px 0px;
+     background-image: url("https://res.cloudinary.com/dggrpzdnl/image/upload/v1689233012/abstract-background-with-monochrome-low-poly-design_1048-14453_vmwqdc.jpg");
+     background-size: cover;
+    
+    /* padding: 20px 20px 20px 10px;  */
+}
+
+/* Styling for the feedback form container */
+.feedy {
+    width: 400px;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+}
+
+/* Styling for the heading */
+.feedy h2 {
+    margin-bottom: 20px;
+}
+
+/* Styling for the form */
+.fd {
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling for the input fields */
+.fd input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 20px 0px 10px 0px;
+    padding: 10px 20px 20px 10px;
+}
+
+/* Styling for the submit button */
+.btg-fd {
+    background-color: #e7c447;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    
+    text-align: center;
+}
+
+.btg-fd:hover {
+    background-color: #da3d3d;
+}

@@ -1,0 +1,9 @@
+.os{
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    color: val(--primary-color);
+}
